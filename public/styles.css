@@ -1,0 +1,27 @@
+.navbar-header {
+    color: white;
+    text-align: center;
+}
+
+.phoneinput {
+    text-align: center;
+    border: solid 5px black;
+    background-color: lightgray;
+    color: black;
+    padding: 30px;
+
+}
+
+.digit {
+    text-align: center;
+    border: solid 3px black;
+    padding: 10px;
+}
+
+.call {
+    text-align: center;
+    padding: 20px;
+    border: solid 3px black;
+    background-color: green;
+    color: white;
+}
