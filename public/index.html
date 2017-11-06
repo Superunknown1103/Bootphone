@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <title>Bootphone</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="/styles.css"></link>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="main.js"></script>
+
 </head>
 <body>
 <div class="container">
@@ -29,43 +30,43 @@
         </div>
 <div class="row">
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>1</h2>
+            <h2 value="1" class="value">1</h2>
             <h3>?</h3>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>2</h2>
+            <h2 value="2" class="value">2</h2>
             <h3>abc</h3>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>3</h2>
+            <h2 value="3" class="value">3</h2>
             <h3>def</h3>
         </div>
 </div>
 <div class="row">
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>4</h2>
+            <h2 value="4" class="value">4</h2>
             <h3>ghi</h3>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>5</h2>
+            <h2 value="5" class="value">5</h2>
             <h3>jkl</h3>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>6</h2>
+            <h2 value="6" class="value">6</h2>
             <h3>mno</h3>
         </div>
 </div>
 <div class="row">
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>7</h2>
+            <h2 value="7" class="value">7</h2>
             <h3>pqrs</h3>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>8</h2>
+            <h2 value="8" class="value">8</h2>
             <h3>tuv</h3>
         </div>
         <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-            <h2>9</h2>
+            <h2 value="9" class="value">9</h2>
             <h3>wxyz</h3>
         </div>
     </div>
@@ -75,7 +76,7 @@
                 <h3>(P)</h3>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
-                <h2>0</h2>
+                <h2 class="value" value="0">0</h2>
                 <h3>+</h3>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 col-xs-4 digit">
@@ -85,7 +86,7 @@
     </div>
     <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 call">
-                <btn><img href="img/btn" alt="phone"></btn>
+                <button id="call">call</button>
             </div>
     </div>
 </div>

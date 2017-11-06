@@ -12,6 +12,10 @@
 
 }
 
+.digit :hover {
+    background-color: lightgray;
+}
+
 .digit {
     text-align: center;
     border: solid 3px black;
