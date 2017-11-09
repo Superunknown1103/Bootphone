@@ -1,66 +1,19 @@
+body {
+    background-color: #C4D1D4;
+}
+
 .bootphone {
-    color: white;
+    color: #000000;
     text-align: center;
     display: inline;
 }
 
+.navbar {
+    background-color: #96C1CA;
+}
 
 .container {
     width: 90% !important;
-}
-
-
-  /* Modal setups and popup */
-
-  input[type=text], input[type=email] {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-.modalButton {
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    margin-left: 0px;
-    border: none;
-    cursor: pointer;
-    height: 5%;
-    width: 10;
-    font-family: 'Acme', cursive;
-}
-
-#welcome{
-    font-family: 'Satisfy', cursive;
-    font-size: 30px;
-    color: black;
-
-}
-
-.hexbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    margin-left: 0px;
-    border: none;
-    cursor: pointer;
-    width: 60%;
-    display: inline;
-    font-family: 'Acme', cursive;
-}
-
-.radio{
-  text-align: center;
-  background-color: white;
-}
-
-.modalButton:hover {
-    opacity: 0.8;
 }
 
 /* Extra styles for the cancel button */
@@ -98,16 +51,19 @@ img.avatar {
 }
 
 .modal {
-    width: 300px;
-    height: 200px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
     position: absolute;
-    left: 50%;
+    left: 52%;
     top: 30%; 
     margin-left: -150px;
     margin-top: -100px;
     border: solid 2px black;
-    background-color: white;
+    border-radius: 10px;
+    background-color: ivory;
 }
+
 
 /* The Close Button (x) */
 .close {
@@ -125,16 +81,15 @@ img.avatar {
     cursor: pointer;
 }
 
-
 #numbers {
     font-family: 'Source Code Pro', monospace;
-    background-color: grey;
 }
 
 .phoneinput {
     text-align: center;
-    border: solid 5px black;
-    background-color: lightgray;
+    border: solid 5px #437589;
+    border-radius: 10px;
+    background-color: #DEDEDE;
     color: black;
     padding: 30px;
 }
@@ -145,34 +100,48 @@ img.avatar {
 }
 
 .hangup {
-    height: 100px;
-    width: 100px;
-    position: absolute;
+    margin-top: 10px;
     left: 50%;
     top: 50%; 
-    margin-left: -50px;
-    margin-top: -25px;
 }
 
 .hangup :hover {
-    background-color: lightgray;
     cursor: pointer;
 }
 
+.phonehang {
+ box-shadow: rgb(207, 134, 108) 0px 1px 0px 0px inset;
+  background: linear-gradient(rgb(208, 69, 27) 5%, rgb(188, 51, 21) 100%) rgb(208, 69, 27); 
+  border-radius: 3px; border: 1px solid rgb(148, 41, 17); display: inline-block; cursor: pointer;
+color: rgb(255, 255, 255); padding: 6px 24px;
+text-decoration: none; text-shadow: rgb(133, 70, 41) 0px 1px 0px;
+font-family: 'EB Garamond', serif;
+font-size: 20px;
+}
+
+.phonescreen {
+    margin: 5%;
+}
+
 .digit :hover {
-    background-color: lightgray;
+    background-color:#437589;
     cursor: pointer;
 }
 
 .digit {
     text-align: center;
-    border: solid 3px black;
+    border: solid 3px #437589;
+    border-radius: 10px;
+    background-color: #D9EBF2;
+    font-family: 'EB Garamond', serif;
+    font-style: bold;
 }
 
 #call {
     text-align: center;
     padding: 20px;
     border: solid 3px black;
+    border-radius: 10px;
     background-color: green;
     color: white;
 }

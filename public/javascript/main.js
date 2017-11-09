@@ -8,9 +8,6 @@ var call = new Audio('assets/call.mp3');
 // initial phoneNumber variable
 let phoneNumber = "";
 
-// phone call modal
-$('#id01').show();
-
 // grab the value of the digit clicked, begin formatting it.
 $('.value').on('click', function(){
     dial.play();
@@ -29,10 +26,16 @@ let updateScreen = function(displayValue) {
     $('#numbers').html(displayValue);
 };
 
-
 // initiate the call
 $('#call').click(function(){
+    $('#id01').show();
     call.play();
-    alert("You dialed number " + formattedPhone);
+    $("#phonebox").html(formattedPhone);
 })
+
+// hang up, reload phone
+$('#hangup').click(function(){
+    location.reload();
+})
+
 }
