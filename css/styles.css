@@ -8,17 +8,8 @@ body {
 
 @media screen and (min-width: 480px) {
     .container {
-        width: 40% !important;
+        width: 90% !important;
     }
-
-    .containerColor {
-        width: 40% !important;
-    }
-
-    .row {
-        width: 40% !important;
-    }
-}
 
 .container {
     width: 90% !important;
