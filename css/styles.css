@@ -1,0 +1,149 @@
+body {
+    background: #C4D1D4; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #0A4E5E , #0A4E5E); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #0A4E5E, #CBE8E6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #0A4E5E, #CBE8E6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #0A4E5E , #CBE8E6); /* Standard syntax */
+}
+
+.container {
+    width: 90% !important;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.modalContainer {
+    display: inline;
+    padding: 16px;
+    padding-left: 16px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: white;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 3px solid #437589;
+    width: 30%; /* Could be more or less, depending on screen size */
+
+}
+
+.modal {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 52%;
+    top: 30%; 
+    margin-left: -150px;
+    margin-top: -100px;
+    border: solid 2px #437589;
+    border-radius: 10px;
+    background-color: #CBE8E6;
+}
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+#numbers {
+    font-family: 'Contrail One', cursive;
+}
+
+.phoneinput {
+    text-align: center;
+    border: solid 5px #437589;
+    border-radius: 10px;
+    background-color: #DEDEDE;
+    color: black;
+    padding: 30px;
+}
+
+.nicefont {
+    font-family: 'Contrail One', cursive;
+}
+
+.hangup {
+    margin-top: 10px;
+    left: 50%;
+    top: 50%; 
+}
+
+.hangup :hover {
+    cursor: pointer;
+}
+
+.phonehang {
+ box-shadow: rgb(207, 134, 108) 0px 1px 0px 0px inset;
+  background: linear-gradient(rgb(208, 69, 27) 5%, rgb(188, 51, 21) 100%) rgb(208, 69, 27); 
+  border-radius: 3px; border: 1px solid rgb(148, 41, 17); display: inline-block; cursor: pointer;
+color: rgb(255, 255, 255); padding: 6px 24px;
+text-decoration: none; text-shadow: rgb(133, 70, 41) 0px 1px 0px;
+font-family: 'Contrail One', cursive;
+font-size: 20px;
+}
+
+.phonescreen {
+    margin: 5%;
+}
+
+.digit :hover {
+    background-color:#437589;
+    cursor: pointer;
+}
+
+.digit {
+    text-align: center;
+    border: solid 3px #437589;
+    border-radius: 10px;
+    background-color: #D9EBF2;
+    font-family: 'Contrail One', cursive;
+    font-style: bold;
+}
+
+#call {
+    text-align: center;
+    padding: 20px;
+    border: solid 4px #437589;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+#call :hover {
+    cursor: pointer;
+}
+
+.callbutton {
+    height: 10%;
+    width: 10%;
+}
