@@ -8,7 +8,10 @@ body {
 
 
 .container {
-    width: 70% !important;
+    width: 300px !important;
+    min-width: 300px !important;
+    height: 300px !important;
+    min-height: 300px !important;
 }
 
 /* Extra styles for the cancel button */
