@@ -6,6 +6,12 @@ body {
     background: linear-gradient(to right, #0A4E5E , #CBE8E6); /* Standard syntax */
 }
 
+@media screen and (min-width: 480px) {
+    .container {
+        width: 40% !important;
+    }
+}
+
 .container {
     width: 90% !important;
 }
